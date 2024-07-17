@@ -68,7 +68,7 @@ public class WeatherApi {
             Callback callback
     )
     {
-        String api = "F-C0032-007?Authorization=CWA-3144FA67-852D-4841-9989-C6FBE2D2EC67&downloadType=WEB&format=JSON";
+        String api = "F-C0032-007?Authorization=AddYourOwnApi&downloadType=WEB&format=JSON";
         get(api,callback);
     }
 //    public static void getWeatherByLocation(double latitude, double longitude, Callback callback) {
