@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="sans-self"
+        android:fontStyle="italic"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:textColor="@android:color/black"
+        android:textSize="8sp" />
+
+    <TextView
+        android:id="@+id/timeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dateTextView"
+        android:textColor="@android:color/black"
+        android:textSize="48sp"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:fontStyle="italic"
+        android:fontFamily="sans"
+        android:scaleX="0.75"
+        android:scaleY="0.75" />
+
+    <ImageView
+        android:id="@+id/weatherImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timeTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:contentDescription="@string/weather_image" />
+
+</RelativeLayout>
